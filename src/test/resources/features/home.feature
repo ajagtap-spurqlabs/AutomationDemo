@@ -1,5 +1,8 @@
-Feature: Demoblaze Home Page
+Feature: Launch Demoblaze application
 
-  Scenario: Verify home page loads
+  Scenario: Launch application successfully
     Given user launches Demoblaze application
-    Then user should see Login option on home page
+    Then home page should be displayed
+
+
+

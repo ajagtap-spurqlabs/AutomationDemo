@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = {"steps", "hooks"},
         plugin = {
                 "pretty",
-                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+                "html:target/cucumber-reports.html"
         },
         monochrome = true
 )
