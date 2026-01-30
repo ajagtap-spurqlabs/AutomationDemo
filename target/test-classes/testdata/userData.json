@@ -1,0 +1,19 @@
+{
+  "application": {
+    "url": "https://www.demoblaze.com/"
+  },
+  "user": {
+    "login": {
+      "password": "test123"
+    }
+  },
+  "order": {
+    "name": "Test User",
+    "country": "India",
+    "city": "Pune",
+    "card": "4111111111111111",
+    "month": "12",
+    "year": "2026"
+  }
+
+}

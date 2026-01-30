@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>standard</theme>
+        <documentTitle>Automation Report</documentTitle>
+        <reportName>Playwright Cucumber Report</reportName>
+        <encoding>utf-8</encoding>
+    </configuration>
+</extentreports>

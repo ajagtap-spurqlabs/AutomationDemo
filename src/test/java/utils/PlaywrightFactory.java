@@ -25,8 +25,8 @@ public class PlaywrightFactory {
             browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
             try {
                 if (Files.exists(STORAGE_PATH)) {
-                    // create context using persisted storage state
-                    context = browser.newContext(new Browser.NewContextOptions().setStorageStatePath(STORAGE_PATH.toString()));
+                    // create context using persisted storage state (pass Path, not String)
+                    context = browser.newContext(new Browser.NewContextOptions().setStorageStatePath(STORAGE_PATH));
                 } else {
                     context = browser.newContext();
                 }
